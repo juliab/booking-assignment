@@ -67,7 +67,7 @@ public class TicketConfigPage extends BasePage {
      * The method is not implemented for more than 11 days from today.
      * 
      * @param numberOfDaysFromToday number of days from today
-     * @return Attractions Page instance for chaining
+     * @return TicketConfigPage instance for chaining
      */
     public TicketConfigPage selectDate(int numberOfDaysFromToday) {
         if (numberOfDaysFromToday > 11) {

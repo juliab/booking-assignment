@@ -18,7 +18,7 @@ public class MainPage extends BasePage {
     /**
      * Opens the main page. URL of the page is retrieved from the configuration.
      * 
-     * @return Main Page instance for chaining
+     * @return MainPage instance for chaining
      */
     public MainPage open() {
         driver.navigate().to(ConfigUtil.getBaseUrl());
@@ -28,7 +28,7 @@ public class MainPage extends BasePage {
     /**
      * Clicks the Attractions link in the header of the main page.
      * 
-     * @return Attractions Page instance
+     * @return AttractionsPage instance
      */
     public AttractionsPage clickAttractionsLink() {
         attractionsLink.click();

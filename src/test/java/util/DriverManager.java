@@ -5,8 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 /**
  * This class is used to manage the webdriver instance and provides methods to
- * get
- * and close the webdriver instance.
+ * get and close the webdriver instance.
  */
 public class DriverManager {
 

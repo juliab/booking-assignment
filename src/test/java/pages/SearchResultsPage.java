@@ -21,7 +21,7 @@ public class SearchResultsPage extends BasePage {
      * attraction card.
      * 
      * @param name attraction name
-     * @return Attractions Page instance for chaining
+     * @return TicketConfigPage instance
      */
     public TicketConfigPage selectAttraction(String name) {
         performActionAndSwitchToNewWindow(() -> attractionCard(name).click());

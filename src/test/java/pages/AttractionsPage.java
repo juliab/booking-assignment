@@ -29,7 +29,7 @@ public class AttractionsPage extends BasePage {
      * - and clicks the search button.
      * 
      * @param name location name
-     * @return Attractions Page instance for chaining
+     * @return SearchResultsPage instance
      */
     public SearchResultsPage searchForLocation(String name) {
         searchInputField.sendKeys(name);
